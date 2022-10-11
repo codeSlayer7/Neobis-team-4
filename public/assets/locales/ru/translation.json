@@ -1,0 +1,20 @@
+{
+    "places": "Места",
+    "blog": "Блог",
+    "safety": "Безопасность",
+    "favorites": "Избранное",
+    "profile": "Профиль",
+    "home": "Жилье",
+    "food": "Еда",
+    "entertainment": "Развлечения",
+    "nature": "Природа",
+    "attractions": "Достопримечательности",
+    "loading": "загрузка...",
+    "name": "имя",
+    "surname": "фамилия",
+    "login": "логин",
+    "password": "пароль",
+    "phone_number": "номер телефона",
+    "I_forgot_my_user_name_or_password?": "Я забыл логин или пароль",
+    "send": "отправить"
+  }

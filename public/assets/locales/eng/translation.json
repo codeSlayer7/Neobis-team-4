@@ -1,0 +1,21 @@
+{
+    "places": "Places",
+    "blog": "Blog",
+    "safety": "Safety",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "home": "Home",
+    "food": "Eood",
+    "entertainment": "Entertainment",
+    "nature": "Nature",
+    "attractions": "Attractions",
+    "loading": "loading...",
+    "name": "name",
+    "surname": "surname",
+    "login": "login",
+    "password": "password",
+    "phone_number": "phone number",
+    "I_forgot_my_user_name_or_password?": "I forgot my user name or password",
+    "send": "send"
+    
+  }
