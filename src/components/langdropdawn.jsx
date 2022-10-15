@@ -14,11 +14,14 @@ const LangugeDropdown = ({ languages }) => {
   };
   return (
     <>
-      <IconButton id="basic-button" onClick={handleClick}>
+      <IconButton
+        sx={{ color: "white" }}
+        id="basic-button"
+        onClick={handleClick}
+      >
         <Language />
       </IconButton>
       <Menu
-
         id="basic-menu"
         anchorEl={anchorEl}
         open={open}
@@ -28,7 +31,12 @@ const LangugeDropdown = ({ languages }) => {
         }}
       >
         {languages.map((el) => (
-          <MenuItem  key={el.code} onClick={()=>{ handleClose(el.code)}}>
+          <MenuItem
+            key={el.code}
+            onClick={() => {
+              handleClose(el.code);
+            }}
+          >
             {el.name}
           </MenuItem>
         ))}
