@@ -1,6 +1,8 @@
 import axios from 'axios'
 import { createAsyncThunk } from '@reduxjs/toolkit'
 
+const BaseUrl = 'tourismkg.herokuapp.com/auth';
+
 export const userLogin = createAsyncThunk(
   'user/login',
   async ({ email, password }, { rejectWithValue }) => {
@@ -44,7 +46,7 @@ export const registerUser = createAsyncThunk(
       }
 
       await axios.post(
-        '/api/user/register',
+        'https://tourismkg.herokuapp.com/auth/registUser',
         { firstName, email, password },
         config
       )

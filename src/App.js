@@ -1,7 +1,7 @@
 import './App.css';
 import { useTranslation } from 'react-i18next'
 import LangugeDropdown from './components/langdropdawn';
-
+import MyRoutes from './Routes';
 const languages = [
   {
     code: 'ru',
@@ -19,8 +19,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{t('home')}</h1>
-      <LangugeDropdown languages={languages}/>
+      {/* <h1>{t('home')}</h1> */}
+      {/* <LangugeDropdown languages={languages}/> */}
+      <MyRoutes/>
     </div>
   );
 }
